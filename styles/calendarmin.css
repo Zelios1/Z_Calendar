@@ -1,0 +1,148 @@
+BODY { background: #222; position: relative;}
+
+.zcn {
+	width: 100%;
+	table-layout: auto;
+	background: #333;
+	color: #aaa;
+	border-spacing: 0px;
+	/*border-collapse: collapse;*/
+	font-family:  Helvetica;
+}
+
+.zcn tr {
+	border: 0px;
+}
+
+.zcn td {
+	padding: 0.2em;
+	margin: 0px;	
+	text-align: center;
+	font-weight: bold;
+	font-family: Helvetica;
+}
+
+.z_t, .z_c, .z_d {
+	-moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+
+.z_t {
+	border-left: 1px solid #d6d9de;
+	border-top: 1px solid #d6d9de;
+	border-right: 1px solid #a0abba;
+	border-bottom: 1px solid #a0abba;
+	background: #c6cbd3;
+	color: #424242;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.z_t:hover {
+	border-left: 1px solid #a0abba;
+	border-top: 1px solid #a0abba;
+	border-right: 1px solid #d6d9de;
+	border-bottom: 1px solid #d6d9de;
+	background: #b6bbc3;
+	color: #424242;
+	padding-right: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+.z_c {
+	border-left: 1px solid #153d6e;
+	border-top: 1px solid #153d6e;
+	border-right: 1px solid #153d6e;
+	border-bottom: 1px solid #2d72c3;
+	background: #398ae9;
+
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.z_d {
+	border-left: 1px solid #eceff2;
+	border-top: 1px solid #eceff2;
+	border-right: 1px solid #bbc7d4;
+	border-bottom: 1px solid #bbc7d4;
+
+	background: #d8dee4;
+
+	color: #b3b3b3;
+	text-shadow: 1px 1px 0 #fff;
+
+}
+
+.z_ch_m {
+	width: 100%;
+	background: #dbe1e7;
+	background: linear-gradient(to top, #dbe1e7, #eef1f4);
+	table-layout: auto;
+	
+	text-align: center
+}
+
+
+.z_ch_m th {
+	color: #424242;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.z_l_c, ._z_r_c {
+	color: #23344f;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.z_l_c {
+	text-align: left;
+}
+
+.z_r_c {
+	text-align: right;
+}
+
+.show, #calendar1 {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	border-radius: 10px;
+	background: #CCC;
+	padding: 10px;
+	width: 240px;
+	opacity: 1;
+	-moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    transition: opacity 0.4s ease-out;
+}
+
+.hide {
+	display: none;
+	opacity: 0;
+}
+
+
+
+#main {
+	display: block;
+	width: 30%;
+	background:  #555;
+	margin: 14% auto;
+	text-align:center;
+	padding: 5%;
+	border: 1px solid #DDD;
+	border-radius: 15px;
+}
+
+
+#main input {
+	background: #777;
+	border: 1px solid #CCC;
+	height: 40px;
+	width: 150px;
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica;
+}
